@@ -1,0 +1,13 @@
+recurso: tareas
+
+CRUD   /// create read update delete
+
+POST /tareas         ///crear una tarea
+
+GET /tareas         //// consultar las tareas
+
+
+GET /tareas/:id      /// consultar una sola tarea
+
+PATCH /tareas/:id        ///Actualizar una tarea ,la :id; podemos modificar solo un valor   
+PUT / tareas/:id            /// Actualizar la tarea :id ; si modificamos un valor, tenemos que pasar toda la informacion de nuevo

@@ -6,13 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon -r dotenv/config app.js"
   },
   "author": "X",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
